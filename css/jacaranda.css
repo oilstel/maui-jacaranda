@@ -121,7 +121,7 @@ nav a:hover {
     opacity: .2;
 }
 body#march-bg, body#april, body#may {
-    background: #d391ef;
+    background: #ddb1f9;
 }
 
 @media (max-width: 700px) {
