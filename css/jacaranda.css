@@ -1,0 +1,131 @@
+*, *:before, *:after { box-sizing: border-box; }
+body {
+    background: #e8e8e8;
+    /* -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none; */
+}
+body {
+    margin: 40px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #000;
+}
+h1, h2, h3, h4, p, figure, em {
+    font-weight: initial;
+    font-size: initial;
+    font-style: initial;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #6C1DA0;
+    font-size: 35px;
+}
+h2 {
+    color: #6C1DA0;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+p, em {
+    line-height: 41px;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+em {
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 10px;
+    display: block;
+}
+figure {
+    margin-bottom: 40px; 
+}
+img {
+    width: 100%;
+}
+ul {
+    list-style-position: outside;
+    padding: 0;
+    margin: 0 0 40px 25px;
+    list-style-type: none;
+}
+ul li {
+    margin: 0 0 35px 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 20px;
+}
+li::before {   
+    content: '';   
+    display: inline-block;
+    position: absolute;
+    margin-left: -45px; 
+    margin-top: -2px; 
+    height: 40px;   
+    width: 30px;    
+    background-size: 30px;   
+    background-image: url('../images/logo.svg'); 
+    background-repeat: no-repeat;   
+    background-position: center center;
+    vertical-align: middle;
+}
+header {
+    margin-bottom: 40px;
+}
+a {
+    color: #8318b1;
+    text-decoration: none;
+}
+nav {
+    width: 200px;
+    display: block;
+    float: left;
+    margin: 0 10px 35px 0;
+}
+nav a {
+    display: block;
+    margin-bottom: 15px;
+}
+nav a:hover {
+    /* text-decoration: underline; */
+    color: #000;
+}
+.current { color: #000; }
+.container {
+    margin-bottom: 3em;
+    display: block;
+}
+.content {
+    float: left;
+    max-width: 700px;
+    width: 100%;
+    min-width: 200px;
+    display: block;
+}
+.clear {
+    clear: both;
+}
+.footer {
+    color: #b872d6;
+    /* border-top: 1.5px solid #b872d6; */
+    /* padding-top: 20px; */
+    margin-top: 3em;
+    font-size: 16px;
+}
+.footer a {
+    color: #b872d6;
+}
+.light {
+    color: #000;
+    opacity: .2;
+}
+body#march-bg, body#april, body#may {
+    background: #d391ef;
+}
+
+@media (max-width: 700px) {
+    h2 {
+        font-size: 60px;
+    }
+}
