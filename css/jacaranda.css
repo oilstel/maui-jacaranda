@@ -118,7 +118,7 @@ nav a:hover {
 }
 .light {
     color: #000;
-    opacity: .2;
+    opacity: .1;
 }
 body#march-bg, body#april, body#may {
     background: #ddb1f9;
