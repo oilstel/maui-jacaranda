@@ -25,7 +25,7 @@ function initMap() {
           "elementType": "labels.text.fill",
           "stylers": [
             {
-              "color": "#5d5d5e"
+              "color": "#fbfcff"
             },
             {
               "weight": 2.5
