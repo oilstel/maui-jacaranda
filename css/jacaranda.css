@@ -23,6 +23,11 @@ h2 {
     font-size: 80px;
     margin-bottom: 20px;
 }
+h3 {
+    color: #6C1DA0;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
 p, em {
     line-height: 41px;
     font-size: 24px;
@@ -47,7 +52,7 @@ ul {
     list-style-type: none;
 }
 ul li {
-    margin: 0 0 35px 0;
+    margin: 0 0 4em 0;
     padding: 0;
     list-style-type: none;
     margin-left: 20px;
@@ -99,6 +104,16 @@ nav a:hover {
     min-width: 200px;
     display: block;
 }
+.meta {
+    margin-top: -10px;
+}
+.button {
+    background: #8318b1;
+    color: #ebc6fa;
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 4px;
+}
 .clear {
     clear: both;
 }
@@ -119,6 +134,7 @@ nav a:hover {
 body#march-bg, body#april, body#may {
     background: #ddb1f9;
 }
+
 
 @media (max-width: 700px) {
     h2 {
