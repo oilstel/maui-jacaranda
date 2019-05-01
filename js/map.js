@@ -6,14 +6,6 @@ function initMap() {
       zoom: 12,
       styles: [
         {
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#ade869"
-            }
-          ]
-        },
-        {
           "elementType": "labels.icon",
           "stylers": [
             {
@@ -33,7 +25,7 @@ function initMap() {
           "elementType": "labels.text.fill",
           "stylers": [
             {
-              "color": "#000000"
+              "color": "#5d5d5e"
             },
             {
               "weight": 2.5
@@ -57,15 +49,6 @@ function initMap() {
           "stylers": [
             {
               "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "administrative.land_parcel",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#bdbdbd"
             }
           ]
         },
@@ -105,24 +88,6 @@ function initMap() {
           ]
         },
         {
-          "featureType": "poi.park",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#e5e5e5"
-            }
-          ]
-        },
-        {
-          "featureType": "poi.park",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#9e9e9e"
-            }
-          ]
-        },
-        {
           "featureType": "road",
           "elementType": "geometry",
           "stylers": [
@@ -137,15 +102,6 @@ function initMap() {
           "stylers": [
             {
               "visibility": "off"
-            }
-          ]
-        },
-        {
-          "featureType": "road.arterial",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#757575"
             }
           ]
         },
