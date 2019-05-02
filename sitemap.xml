@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>http://mauijacaranda.com/</loc>
+  <changefreq>monthly</changefreq>
+  <lastmod>2019-05-01</lastmod>
+</url>
+<url>
+  <loc>http://mauijacaranda.com/season</loc>
+  <changefreq>monthly</changefreq>
+  <lastmod>2019-05-01</lastmod>
+</url>
+<url>
+  <loc>http://mauijacaranda.com/map</loc>
+  <changefreq>monthly</changefreq>
+  <lastmod>2019-05-01</lastmod>
+</url>
+<url>
+  <loc>http://mauijacaranda.com/places</loc>
+  <changefreq>monthly</changefreq>
+  <lastmod>2019-05-01</lastmod>
+</url>
+</urlset>
