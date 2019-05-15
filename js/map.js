@@ -4,6 +4,7 @@ function initMap() {
       disableDefaultUI: true,
       center: {lat: 20.778787, lng: -156.322438},
       zoom: 12,
+      gestureHandling: 'greedy',
       styles: [
         {
           "elementType": "labels.icon",
