@@ -126,6 +126,7 @@ nav a:hover {
 }
 .footer a {
     color: #b872d6;
+    text-decoration: underline;
 }
 .light {
     color: #000;
