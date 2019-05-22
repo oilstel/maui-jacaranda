@@ -28,7 +28,7 @@ h3 {
     font-size: 35px;
     margin-bottom: 20px;
 }
-p, em {
+p, em, hr {
     line-height: 41px;
     font-size: 24px;
     margin-bottom: 40px;
@@ -138,6 +138,12 @@ body#april, body#may, body#june {
 /* body#may {
     background: #b743ff;
 } */
+
+hr {
+    background: #b872d6;
+    height: 3px;
+    border: none;
+}
 
 
 @media (max-width: 700px) {
