@@ -132,12 +132,12 @@ nav a:hover {
     color: #000;
     opacity: .1;
 }
-body#april, body#june {
+body#april, body#may, body#june {
     background: #ddb1f9;
 }
-body#may {
+/* body#may {
     background: #b743ff;
-}
+} */
 
 
 @media (max-width: 700px) {
